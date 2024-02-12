@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 82%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 86%;
+    max-width: 1115px;
+  }
+}
+
+.icon {
+  height: 72px;
+  min-width: 32px;
+  margin-right: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.message-container {
+  margin-top: 3px;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .message-container {
+    margin-top: 0px;
+  }
+}
+
+.message-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .message-heading {
+    font-size: 25px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 550;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 22px;
+  }
+}
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}

@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 650px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin-bottom: 22px;
+  padding-top: 10px;
+  padding-left: 21px;
+  padding-bottom: 10px;
+  padding-right: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification {
+    padding-top: 10px;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    padding-right: 22px;
+  }
+}
+.notification-content {
+  display: flex;
+}
+.close-icon {
+  height: 72px;
+  min-width: 26px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #475569;
+}
